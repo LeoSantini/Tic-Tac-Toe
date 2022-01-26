@@ -4,9 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <!-- link css -->
+    <link rel="stylesheet" href="./assets/style.css">
+
+    <!-- Titulo da página -->
+    <title>Tic-Tac-Toe</title>
 </head>
+
 <body>
     
+    <div class='game'></div>
+    <button class="btn" onclick="tic_tac_toe.restart()" title="Restart this game">Reiniciar</button>
+
+    <script src="./scripts/script.js"></script>
+    <script>
+        tic_tac_toe.init( document.querySelector('.game') );
+        tic_tac_toe.start();
+    </script>
 </body>
 </html>
