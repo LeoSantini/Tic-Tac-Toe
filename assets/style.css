@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap');
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .game {
+    width: 100vw;
+    height: 100vw;
+    margin: 0 auto;
+    background-color: white;
+    color: black;
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+    background-image: url(./Images/Ironhack-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .game>div {
+    border: 6px solid #2ec5fc;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .btn {
+    background-color: #2ec5fc;
+    border-style: none;
+    color: whitesmoke;
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 1.5em;
+  }
+  
+  .game > div.winner {
+    background: limegreen;
+  }
+  
+  @media (min-width: 600px) {
+    .game {
+      width: 600px;
+      height: 600px;
+      border-radius: 10px;
+      border: 6px solid #2ec5fc;
+    }
+  
+    .game>div {
+      border-radius: 2px;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .btn {
+      cursor: pointer;
+    }
+  }

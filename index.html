@@ -8,18 +8,23 @@
     <!-- link css -->
     <link rel="stylesheet" href="./assets/style.css">
 
-    <!-- Titulo da página -->
+    <!-- titulo da página -->
     <title>Tic-Tac-Toe</title>
 </head>
 
 <body>
     
+    <!-- container para criação do tabuleiro, dentro da div -->
     <div class='game'></div>
-    <button class="btn" onclick="tic_tac_toe.restart()" title="Restart this game">Reiniciar</button>
+
+    <!-- invoca a função restart() do script js para reiniciar o jogo -->
+    <button class="btn" onclick="tic_tac_toe.restart()">Reiniciar</button>
 
     <script src="./scripts/script.js"></script>
+
     <script>
-        tic_tac_toe.init( document.querySelector('.game') );
+        // invocar a função init do script js
+        tic_tac_toe.init(document.querySelector('.game'));
         tic_tac_toe.start();
     </script>
 </body>
