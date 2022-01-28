@@ -20,4 +20,4 @@ This project has been created in the first module at Ironhack São Paulo - Web d
 
 ## About the project
 
-[Click here] (https://www.canva.com/design/DAE2sZ2hp_A/TzyW3I_SS9zxwAEQQAJs5Q/view?utm_content=DAE2sZ2hp_A&utm_campaign=designshare&utm_medium=link&utm_source=publishpresent)
+[Click here](https://www.canva.com/design/DAE2sZ2hp_A/TzyW3I_SS9zxwAEQQAJs5Q/view?utm_content=DAE2sZ2hp_A&utm_campaign=designshare&utm_medium=link&utm_source=publishpresent)
