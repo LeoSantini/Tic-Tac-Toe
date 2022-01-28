@@ -2,7 +2,7 @@
 
 # About the game
 
-This project has been created in the first module at Ironhack São Paulo - Web development Bootcamp
+This project has been created in the first module at Ironhack São Paulo - Web Development Bootcamp
 
 ## How it works
 
